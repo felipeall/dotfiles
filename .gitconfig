@@ -1,0 +1,23 @@
+[user]
+  name = Felipe Allegretti
+  email = felipeallh@gmail.com
+
+[credential "https://github.com"]
+  username = felipeall
+
+[init]
+  defaultBranch = main
+
+[color]
+  diff = auto
+  branch = auto
+  status = auto
+
+[pull]
+  rebase = true
+
+[push]
+  autoSetupRemote = true
+
+[rebase]
+  autosquash = true
