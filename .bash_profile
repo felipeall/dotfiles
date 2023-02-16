@@ -2,6 +2,10 @@
 alias ..='cd ..'
 
 # METHODS
+gitCommit(){
+  git commit -m "$*"
+}
+
 gitAddCommit(){
   git commit -a -m "$*"
 }
@@ -19,7 +23,8 @@ gitDeleteBranch(){
 }
 
 # ALIASES
-alias c=gitAddCommit
+alias c=gitCommit
+alias ac=gitAddCommit
 alias gb=gitCreateBranch
 alias gb-=gitDeleteBranch
 alias gpo=gitPushOrigin
