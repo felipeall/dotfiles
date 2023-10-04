@@ -37,9 +37,9 @@ alias gco='echo git checkout && git checkout'  # go to a specific branch
 alias gco-='echo git checkout - && git checkout -'  # go back to the last branch you visited
 alias gco.='echo git checkout . && git checkout .'  # delete all local changes in the repository that have not been added to the staging area
 alias gfa='echo git fetch --all && git fetch --all'  # fetch all remote refs
-alias grh='read -p "git reset --hard ?" -n 1 -r && git reset --hard'  # undo the most recent commit, leaves the file/folders unstaged in your local repository
-alias gfp='read -p "git push --force-with-lease ?" -n 1 -r && git push --force-with-lease'  # safely ignore newly added commits on the remote branch and overwrite them with the local ones
-alias gca='read -p "git commit --amend --no-edit ?" -n 1 -r && git commit --amend --no-edit'  # amend the last commit and don't edit the commit message
+alias grh='read "?> git reset --hard ?" && git reset --hard'  # undo the most recent commit, leaves the file/folders unstaged in your local repository
+alias gfp='read "?> git push --force-with-lease ?" && git push --force-with-lease'  # safely ignore newly added commits on the remote branch and overwrite them with the local ones
+alias gca='read "?> git commit --amend --no-edit ?" && git commit --amend --no-edit'  # amend the last commit and don't edit the commit message
 
 # PYENV
 export PYENV_ROOT="$HOME/.pyenv"
