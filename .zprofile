@@ -1,5 +1,6 @@
 # GENERAL
 alias ..='cd ..'
+alias ll='ls -lah'
 
 # GIT METHODS
 gitCommit(){
