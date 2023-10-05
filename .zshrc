@@ -1,5 +1,5 @@
-# GENERAL
-alias pypath='export PYTHONPATH="$PYTHONPATH":$(pwd)'
+# ZPROFILE
+source ~/.zprofile
 
 # STARSHIP
 eval "$(starship init zsh)"

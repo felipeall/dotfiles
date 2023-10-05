@@ -1,6 +1,10 @@
-# GENERAL
+# ALIASES
 alias ..='cd ..'
 alias ll='ls -lah'
+alias pypath='export PYTHONPATH="$PYTHONPATH":$(pwd)'
+
+# CONFIGS
+export EDITOR=nano
 
 # GIT METHODS
 gitCommit(){
