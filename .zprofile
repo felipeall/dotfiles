@@ -2,6 +2,8 @@
 alias ..='cd ..'
 alias ll='ls -lah'
 alias pypath='export PYTHONPATH="$PYTHONPATH":$(pwd)'
+alias k='kubectl'
+alias kx='kubectx'
 
 # CONFIGS
 export EDITOR=nano
